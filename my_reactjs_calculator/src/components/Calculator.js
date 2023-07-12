@@ -63,7 +63,9 @@ const Calculator = () => {
   };
 
   return (
+      
     <div className="calculator">
+        <div className="container">
       <div className="display">
         <div className="previous-value">
           {isResult ? buffer : ''}
@@ -75,27 +77,28 @@ const Calculator = () => {
           <button onClick={() => handleNumberClick('1')}>1</button>
           <button onClick={() => handleNumberClick('2')}>2</button>
           <button onClick={() => handleNumberClick('3')}>3</button>
-          <button onClick={() => handleOperatorClick('+')}>+</button>
+          <button onClick={() => handleOperatorClick('+')} className="btn_operators">+</button>
         </div>
         <div className="row">
           <button onClick={() => handleNumberClick('4')}>4</button>
           <button onClick={() => handleNumberClick('5')}>5</button>
           <button onClick={() => handleNumberClick('6')}>6</button>
-          <button onClick={() => handleOperatorClick('-')}>-</button>
+          <button onClick={() => handleOperatorClick('-')} className="btn_operators">-</button>
         </div>
         <div className="row">
           <button onClick={() => handleNumberClick('7')}>7</button>
           <button onClick={() => handleNumberClick('8')}>8</button>
           <button onClick={() => handleNumberClick('9')}>9</button>
-          <button onClick={() => handleOperatorClick('*')}>*</button>
+          <button onClick={() => handleOperatorClick('*')} className="btn_operators">*</button>
         </div>
         <div className="row">
-          <button onClick={() => clear()}>C</button>
+          <button onClick={() => clear()} className="btn_buffer" >C</button>
           <button onClick={() => handleNumberClick('0')}>0</button>
           <button onClick={() => evaluate()}>=</button>
-          <button onClick={() => handleOperatorClick('/')}>/</button>
+          <button onClick={() => handleOperatorClick('/')} className="btn_operators">/</button>
         </div>
       </div>
+    </div>
     </div>
   );
 };
