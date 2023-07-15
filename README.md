@@ -25,12 +25,10 @@ To run the ReactJS Calculator locally on your machine, you need to follow these 
     This command will start the React development server and open the calculator application in your default browser. You can access it at http://localhost:3000.
 
 ## Usage
-1.  Enter numbers by clicking on the corresponding buttons in the calculator interface.
-2.  Select an arithmetic operator (+, -, *, /) by clicking on the respective operator button.
-3.  Perform calculations by entering the second number and clicking the "=" button.
-4.  The result will be displayed in the calculator interface.
-5.  To clear the calculation and start afresh, click the "C" button.
+You can just following this like to use this app: "https://cheerful-lamington-d06555.netlify.app".
 
 ### The Core Team
+
+
 <span><i>Made at <a href='https://qwasar.io'>Qwasar SV -- Software Engineering School</a></i></span>
 <span><img alt='Qwasar SV -- Software Engineering School's Logo' src='https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png' width='20px'></span>
